@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::resource('rest', 'RestappController');
+
 // Route::get('hello', function () {
 //     return view('hello.index');
 // });
